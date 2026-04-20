@@ -65,6 +65,7 @@ const useStyles = makeStyles({
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
     gap: tokens.spacingHorizontalL,
+    alignItems: 'start',
   },
   categorySection: {
     display: 'flex',

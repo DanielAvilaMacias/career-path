@@ -25,6 +25,7 @@ const useStyles = makeStyles({
   content: {
     overflow: 'hidden',
     minWidth: 0,
+    gridColumn: '2',
   },
 })
 
