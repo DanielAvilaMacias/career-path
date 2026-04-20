@@ -5,7 +5,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <FluentProvider theme={webLightTheme} style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+    <FluentProvider theme={webLightTheme} style={{ display: 'contents' }}>
       <App />
     </FluentProvider>
   </StrictMode>,

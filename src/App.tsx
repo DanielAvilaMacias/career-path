@@ -10,18 +10,17 @@ const MOBILE_BREAKPOINT = 768
 
 const useStyles = makeStyles({
   root: {
-    display: 'flex',
-    flexDirection: 'column',
-    height: '100%',
-    width: '100%',
+    display: 'grid',
+    gridTemplateRows: 'auto 1fr',
+    height: '100vh',
+    width: '100vw',
     overflow: 'hidden',
   },
   body: {
     display: 'grid',
     gridTemplateColumns: 'auto 1fr',
-    flex: 1,
-    minHeight: 0,
     overflow: 'hidden',
+    minHeight: 0,
   },
   content: {
     overflow: 'hidden',

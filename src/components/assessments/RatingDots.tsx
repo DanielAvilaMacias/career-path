@@ -7,8 +7,8 @@ const useStyles = makeStyles({
     alignItems: 'center',
   },
   dot: {
-    width: '12px',
-    height: '12px',
+    width: '14px',
+    height: '14px',
     borderRadius: '50%',
     flexShrink: 0,
   },

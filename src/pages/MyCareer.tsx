@@ -50,6 +50,7 @@ const useStyles = makeStyles({
     flex: 1,
     overflowY: 'auto',
     padding: tokens.spacingHorizontalXL,
+    minHeight: 0,
   },
   emptyState: {
     display: 'flex',
